@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ormar_project"
+version = "0.1.0"
+description = ""
+authors = ["DJWOMS <socanime@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.3"
+ormar = {extras = ["sqlite"], version = "^0.7.5"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
